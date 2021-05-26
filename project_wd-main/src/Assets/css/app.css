@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* overlay */
+
+.overlay {
+  @apply absolute;
+}
+
+.overlay * {
+  @apply transition-all duration-200;
+}
+
+.overlay.hoverable > * {
+  @apply opacity-0;
+}
+
+.overlay.hoverable:hover > * {
+  @apply opacity-100;
+}
+
+.overlay .video {
+  @apply absolute transform bg-green-500 hover:bg-black transition duration-200 bg-no-repeat bg-center w-20 h-20 rounded-full items-start justify-center flex -translate-x-1/2 -translate-y-1/2;
+  background-image: url("../images/icon-play.svg#icon-play");
+  top: 50%;
+  left: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero .hero-image,
+  .hero .hero-caption {
+    min-height: 90vh;
+  }
+
+  .hero .hero-cta {
+    @apply w-12 h-12;
+    transform: translateX(-75px) translateY(-50%);
+    background-size: 37.5%;
+  }
+}
+
+/* card-shadow */
+.card-shadow:hover {
+  @apply shadow-xl;
+}
