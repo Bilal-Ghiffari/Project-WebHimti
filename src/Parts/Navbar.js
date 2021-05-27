@@ -22,18 +22,18 @@ export default function Navbar({theme, position}) {
                             </Link>
                         </li>
                         <li className="mx-4 py-6 md:py-0">
-                            <Link to="/News" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
+                            <Link to="/news" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
                                 NEWS
                             </Link>
                         </li>
                         <li className="mx-4 py-6 md:py-0">
-                            <Link to="/Gallery" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
+                            <Link to="/gallery" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
                                 GALLERY
                             </Link>
                         </li>
                         <li className="mx-4 py-6 md:py-0">
-                            <Link to="/AboutUs" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
-                                ABOUTUS
+                            <Link to="/about-us" className={[theme === "white" ? "text-black md:text-white hover:underline" : "text-white md:text-black hover:underline"].join(" ")}>
+                                ABOUT US
                             </Link>
                         </li>
                     </ul>
