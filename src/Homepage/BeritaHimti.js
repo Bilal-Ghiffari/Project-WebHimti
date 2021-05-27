@@ -18,7 +18,7 @@ export default function BeritaHimti() {
                         <img className="rounded-t-lg" src="images/content/image-berita-1.png" alt="berita 1" />
                         <div className="bg-green-500 card-shadow">
                             <div className="text-white">
-                                <Link to="/News">
+                                <Link to="/news-item">
                                     <h4 className="flex justify-center py-5 capitalize">pelaksanaan kobit 2021</h4>
                                 </Link>
                             </div>
@@ -28,7 +28,7 @@ export default function BeritaHimti() {
                         <img className="rounded-t-lg" src="images/content/image-berita-2.png" alt="berita 1" />
                         <div className="bg-green-500 card-shadow">
                             <div className="text-white">
-                                <Link to="/News">
+                                <Link to="/news-item">
                                     <h4 className="flex justify-center py-5 capitalize">pelaksanaan acara resmi reformatics 2021</h4>
                                 </Link>
                             </div>
@@ -38,7 +38,7 @@ export default function BeritaHimti() {
                         <img className="rounded-t-lg" src="images/content/image-berita-3.png" alt="berita 1" />
                         <div className="bg-green-500 card-shadow">
                             <div className="text-white">
-                                <Link to="/News">
+                                <Link to="/news-item">
                                     <h4 className="flex justify-center py-5 capitalize">pelaksanaan acara IP routing 2021</h4>
                                 </Link>
                             </div>

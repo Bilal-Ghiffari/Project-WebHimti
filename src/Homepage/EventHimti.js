@@ -37,7 +37,7 @@ export default function EventHimti({data}) {
                                 <Slide bottom delay={300 * index}>
                                 <img className="rounded-t-lg" src={`/images/content/${item.imageUrl}`} alt="" />
                                 <div className=" bg-green-500">
-                                    <Link to="/News" >
+                                    <Link to="/news-item" >
                                         <h4 className="flex justify-center py-5 capitalize text-white">{item.title}</h4>
                                     </Link>
                                 </div>
